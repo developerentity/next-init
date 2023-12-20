@@ -1,10 +1,10 @@
-import Banners from "../../elements/Banners"
-import Breadcrumbs from "../../elements/Breadcrumbs"
-import Footer from "../../elements/Footer"
-import Header from "../../elements/Header"
-import PostCards from "../../elements/PostCards"
-import Subscribe from "../../elements/Subscribe"
-import Topics from "../../elements/Topics"
+import Banners from "../elements/Banners"
+import Breadcrumbs from "../elements/Breadcrumbs"
+import Footer from "../elements/Footer"
+import Header from "../elements/Header"
+import PostCards from "../elements/PostCards"
+import Subscribe from "../elements/Subscribe"
+import Topics from "../elements/Topics"
 
 
 export default function Home() {
@@ -12,8 +12,8 @@ export default function Home() {
     return (
         <div className="font-main text-white">
             <div className="max-w-screen-xl mx-auto h-screen grid grid-rows-layout">
-                <Header />
-                <div>
+             <Header />
+                   <div>
                     <Breadcrumbs />
                     <Banners />
                     <main className="lg:flex">
